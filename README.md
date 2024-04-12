@@ -1,7 +1,8 @@
 # JavascriptNoteBook-Greski
 
-FETCH
+## FETCH
 
+```javascript
 function requestMenu() {
   let data = new FormData();
   data.append("key1", "value1"); // repeat for as many params as necessary
@@ -19,10 +20,11 @@ id(“input-form”).addEventListener(“submit”, function(e)){
 	submitRequest();
 
 });
+```
 
+## EXPRESS JS APP
 
-EXPRESS JS APP
-
+```javascript
 "use strict";
 
 const express = require("express");
@@ -42,9 +44,12 @@ const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+```
 
 
-.gitignore 
+## .gitignore 
+
+```javascript
 
 # Logs
 
@@ -272,9 +277,10 @@ dist
 .yarn/install-state.gz
 
 .pnp.*
+```
 
-CONNECTING TO DB
-
+## CONNECTING TO DB
+```javascript
 ‘use strict’
 const sqlite3 = require(‘sqlite’);
 const sqlite = require(‘sqlite’);
@@ -288,7 +294,7 @@ async function getDBConnection(){
 
 return db;
 }
-
+```
 
 
 
